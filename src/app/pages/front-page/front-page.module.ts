@@ -8,7 +8,7 @@ import { FooterComponent } from 'src/app/features/footer/footer.component';
 
 
 @NgModule({
-  declarations: [FrontPageComponent, NavbarComponent, FooterComponent],
+  declarations: [FrontPageComponent],
   imports: [
     CommonModule,
     FrontPageRoutingModule

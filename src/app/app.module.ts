@@ -5,19 +5,21 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './features/footer/footer.component';
 import { NavbarComponent } from './features/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
+import { PortfolioPageModule } from './pages/portfolio-page/portfolio-page.module';
+import { FrontPageModule } from './pages/front-page/front-page.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent,
-    PortfolioPageComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    PortfolioPageModule,
+    FrontPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

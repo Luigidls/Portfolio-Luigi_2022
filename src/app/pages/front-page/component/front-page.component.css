@@ -1,0 +1,54 @@
+.main-content {
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url('../../../../assets/art5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50% 30%;
+    row-gap: 2vw;
+    /* padding-top: 5vw; */
+}
+
+.grid-element {
+    display: grid;
+    width: 50%;
+    justify-self: center;
+}
+
+.grid-element>h1 {
+    align-self: flex-end;
+    justify-self: center;
+    color: var(--headingBlack);
+}
+
+.grid-element h1>span::before {
+    content: '\a';
+    white-space: pre;
+}
+
+.student-img img {
+    align-self: flex-end;
+    justify-self: center;
+    width: 15vw;
+}
+
+.paragraph {
+    padding-top: 3vw;
+}
+
+.grid-element .btn-home {
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+.luigi {
+    color: var(--luigiColour);
+}
+
+.btn-home {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vw;
+}

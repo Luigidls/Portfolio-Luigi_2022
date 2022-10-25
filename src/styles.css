@@ -3,7 +3,7 @@
     --headingBlack: #2D2D2D;
     --textWhite: #ffffff;
     --buttonPrimary: #296DCE;
-    --iconSocial: #2A4355;
+    --iconSocial: #2D2D2D;
     --luigiColour: #A4D9F4;
     --footer: #6DB2E6;
 }
@@ -76,9 +76,6 @@ p {
     line-height: 2.2vw;
 }
 
-body {
-    
-}
 
 /* Define functional classes */
 

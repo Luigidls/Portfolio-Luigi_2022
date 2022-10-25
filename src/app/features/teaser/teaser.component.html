@@ -1,5 +1,7 @@
-<p>{{client}}</p>
-<p>{{myRole}}</p>
-<p>{{sector}}</p>
-<p>{{challenge}}</p>
-<p>{{duration}}</p>
+<div class="teaser-block" (click)="click()" [ngClass]="{'expanded': clicked===true}">
+    <p>{{client}}</p>
+    <p>{{myRole}}</p>
+    <p>{{sector}}</p>
+    <p>{{challenge}}</p>
+    <p>{{duration}}</p>
+</div>

@@ -13,9 +13,25 @@ export class TeaserComponent implements OnInit {
   @Input() challenge: string = '';
   @Input() duration: string = '';
 
+  clicked: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    var teaser = document.getElementsByClassName('teaser-block')[0];
+
+    teaser.addEventListener('click', () => {
+      if (teaser.classList.contains('expanded')) {
+        teaser.classList.remove('expanded');
+      }
+      else {
+        teaser.classList.add('expanded');
+      }
+    });
+  }
+
+  click(): void {
+    this.clicked = !this.clicked;
   }
 
 }

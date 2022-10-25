@@ -5,6 +5,11 @@ nav {
     width: 100%;
     position: fixed;
     padding: 0 3vw;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 nav ul {
@@ -15,9 +20,13 @@ nav ul {
     padding: 2rem;
 }
 
-nav ul li > a {
+nav ul li>a {
     text-decoration: none;
     width: fit-content;
     cursor: pointer;
 }
 
+.nav-background {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}

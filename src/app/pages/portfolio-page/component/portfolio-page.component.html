@@ -1,6 +1,7 @@
+<div class="overlay"></div>
 <main>
     <h2>{{ titleHeading }}</h2>
-    <teaser style="margin-bottom: 5rem" client='So,enownrf' myRole='blah blah' sector="sectorinoo"
-        challenge='this is it' duration='17 minutes'></teaser>
+    <teaser *ngFor="let teaser of dataList" [client]="teaser.client" [myRole]="teaser.myRole" [sector]="teaser.sector"
+       teaser [challenge]="teaser.challenge" [duration]="teaser.duration"></teaser>
 
 </main>

@@ -1,6 +1,21 @@
 main {
     height: 100vh;
+    background: transparent;
+    padding-inline: 3vw;
+    display: grid;
+    justify-items: center;
+}
+
+.overlay {
     background-image: url('/assets/background-content.png');
     background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+h2 {
+    padding-top: 10vw;
 }

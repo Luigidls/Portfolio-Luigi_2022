@@ -1,3 +1,15 @@
+/* Defining the root variables to inherit globally */
+:root {
+    --headingBlack: #2D2D2D;
+    --textWhite: #ffffff;
+    --buttonPrimary: #296DCE;
+    --iconSocial: #2A4355;
+    --luigiColour: #A4D9F4;
+    --footer: #6DB2E6;
+}
+
+
+/* Define basic rules and properties for the document */
 * {
     margin: 0;
     padding: 0;
@@ -5,21 +17,79 @@
     box-sizing: border-box;
 }
 
-a {
-    font-family: 'Dosis', sans-serif;
-    font-weight: 300;    
-}
-
 html {
     font-size: 16px;
 }
 
+
+/* Define properties for elements used globally */
+a,
+p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: var(--textWhite);
+}
+
+a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav a {
+    font-size: 1.2vw;
+}
+
+.btn,
+.btn-primary {
+    border: 1.5px solid var(--textWhite);
+    width: 12vw;
+    height: fit-content;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    padding: .5rem .7rem;
+    text-align: center;
+}
+
+.btn-primary {
+    border: 2px solid var(--buttonPrimary);
+    background-color: var(--buttonPrimary);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
 h1 {
-    font-size: 3vw;
+    font-size: 6vw;
+    line-height: 7vw;
+}
+
+p {
+    font-size: 1.5vw;
+    line-height: 2.2vw;
 }
 
 body {
     
+}
+
+/* Define functional classes */
+
+.no-gap {
+    gap: 0;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

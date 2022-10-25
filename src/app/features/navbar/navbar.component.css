@@ -1,19 +1,22 @@
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: fixed;
-
+    padding: 0 3vw;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    justify-content: space-around;
+    width: 40%;
     padding: 2rem;
 }
 
 nav ul li > a {
     text-decoration: none;
+    width: fit-content;
 }
+

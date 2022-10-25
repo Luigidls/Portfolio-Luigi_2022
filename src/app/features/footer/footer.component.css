@@ -2,8 +2,8 @@ cite {
     font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
+    font-size: 1vw;
     color: var(--headingBlack);
-    font-size: larger;
 }
 
 .space-between {

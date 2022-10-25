@@ -1,7 +1,7 @@
 .main-content {
     height: 100vh;
     max-height: 100vh;
-    background-image: url('../../../../assets/art5.png');
+    background-image: url('../../../../assets/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;

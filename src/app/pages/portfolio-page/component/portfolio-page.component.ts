@@ -28,5 +28,6 @@ export class PortfolioPageComponent implements OnInit {
         navbar?.classList.remove('nav-background');
       }
     })
+
   }
 }

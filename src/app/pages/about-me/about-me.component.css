@@ -1,9 +1,10 @@
 main {
-    height: 100vh;
+    height: 50vh;
     background: transparent;
     padding-inline: 3vw;
     display: grid;
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3vw;
 }
 
 .overlay {
@@ -17,5 +18,76 @@ main {
 }
 
 h2 {
-    padding-top: 10vw;
+    padding-top: 12vw;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+
+.intro > img {
+    width: 50%;
+    text-align: center;
+}
+
+.description {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;
+    align-self: flex-end;
+    padding-top: 15vw;
+}
+
+.passions {
+    justify-items: center;
+    padding-top: 25vw;
+    padding-bottom: 25vw;
+}
+
+.passions h3 {
+    font-size: 4vw;
+    text-align: left;
+    padding-bottom: 2vw;
+    margin-left: 12vw;
+}
+
+.passion-article {
+    width: 40%;
+    margin-left: 12vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.passion-article-general > img {
+    width: 20%;
+}
+
+.passion-article-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2vw;
+}
+
+.contact {
+    margin-top: 5vw;
+    width: 100%;
+    text-align: center;
+}
+
+.contact a {
+    border: 1.5px solid var(--textWhite);
+    width: 12vw;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
 }

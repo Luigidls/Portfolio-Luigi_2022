@@ -24,41 +24,6 @@ export class DataService {
                 the User Research and the UX (IA) phases, with the concern to firstly 
                 target the right audience and therefore meeting their satisfaction criteria`,
                 duration: "1 month"
-            },
-            {
-                client: "2",
-                myRole: "sdf",
-                sector: "sdf",
-                challenge: "sdf",
-                duration: "sdf",
-            },
-            {
-                client: "3",
-                myRole: "sdf",
-                sector: "sdf",
-                challenge: "sdf",
-                duration: "sdf",
-            },
-            {
-                client: "4",
-                myRole: "sdf",
-                sector: "sdf",
-                challenge: "sdf",
-                duration: "sdf",
-            },
-            {
-                client: "4",
-                myRole: "sdf",
-                sector: "sdf",
-                challenge: "sdf",
-                duration: "sdf",
-            },
-            {
-                client: "4",
-                myRole: "sdf",
-                sector: "sdf",
-                challenge: "sdf",
-                duration: "sdf",
             }
         ];
 

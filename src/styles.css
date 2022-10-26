@@ -24,7 +24,8 @@ html {
 
 /* Define properties for elements used globally */
 a,
-p {
+p,
+pre {
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     color: var(--textWhite);
@@ -61,7 +62,8 @@ nav a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
 }
@@ -69,6 +71,15 @@ h3 {
 h1 {
     font-size: 6vw;
     line-height: 7vw;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+h2,
+h3 {
+    color: var(--textWhite);
 }
 
 p {

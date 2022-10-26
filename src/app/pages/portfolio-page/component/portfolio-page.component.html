@@ -1,7 +1,70 @@
 <div class="overlay"></div>
 <main>
     <h2>{{ titleHeading }}</h2>
-    <teaser *ngFor="let teaser of dataList" [client]="teaser.client" [myRole]="teaser.myRole" [sector]="teaser.sector"
-       teaser [challenge]="teaser.challenge" [duration]="teaser.duration"></teaser>
+
+
+    <div class="teaser-wrapper-gjol" id="teaser1">
+        <div>
+            <h4>Client</h4>
+            <p>Gjøl Kro's owner</p>
+            <h4>Role</h4>
+            <p>UX Designer - Co-developer</p>
+            <h4>Sector</h4>
+            <p>Restaurants & Events</p>
+            <h4>Challenge</h4>
+            <p>For this project the challenges were mostly throughout
+                the User Research and the UX (IA) phases, with the concern to firstly
+                target the right audience and therefore meeting their satisfaction criteria</p>
+            <h4>Duration</h4>
+            <p>1 month</p>
+        </div>
+        <div class="gjol">
+            <img src="../../../../assets/study-cases/gjol.png" alt="">
+            <a>Read more</a>
+        </div>
+    </div>
+
+    <div class="teaser-wrapper-hiking">
+        <div>
+            <h4>Client</h4>
+            <p>Aalborg's Kommune</p>
+            <h4>Role</h4>
+            <p>Quantitative & standard data - Persona creation - Co-developer</p>
+            <h4>Sector</h4>
+            <p>Navigation & Map</p>
+            <h4>Challenge</h4>
+            <p>The challenge was to provide a relatively quick solution that would allow user to access and gather
+                information regarding hiking trails, in the city of Aalborg. The design had to be as easy and efficient
+                as possible, along with considering anti-patterns and proper design patterns.</p>
+            <h4>Duration</h4>
+            <p>3-4 weeks</p>
+        </div>
+        <div class="hiking">
+            <img src="../../../../assets/study-cases/Group 1134.png" alt="">
+            <a>Read more</a>
+        </div>
+    </div>
+
+    <div class="teaser-wrapper-kulia">
+        <div>
+            <h4>Client</h4>
+            <p>Kulia Food Truck</p>
+            <h4>Role</h4>
+            <p>Research - Information Architecture - UI/UX Designer</p>
+            <h4>Sector</h4>
+            <p>Street Food & Events</p>
+            <h4>Challenge</h4>
+            <p>For this project the challenges were mostly throughout
+                the User Research, where both qualitative and quantiative data played a crucial role to satisfy our
+                customer needs!
+                target the right audience and therefore meeting their satisfaction criteria</p>
+            <h4>Duration</h4>
+            <p>1 month</p>
+        </div>
+        <div class="kulia">
+            <img src="../../../../assets/study-cases/Kulia.png" alt="">
+            <a>Read more</a>
+        </div>
+    </div>
 
 </main>
